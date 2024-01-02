@@ -1,0 +1,347 @@
+.heading{
+    position: relative;
+    overflow: hidden;
+}
+.heading-block {
+    max-width: 65rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.heading-block__subtitle {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.heading-block__title {
+    margin-bottom: 1rem;
+    font-size: 10rem;
+    font-weight: 800;
+}
+.heading-block__text {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+.heading__video{
+    width: 100%;
+    margin-top: -.2rem;
+}
+#playBtn {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+}
+.block-hidden{
+    display: none;
+}
+
+
+//happened
+.happened{
+    padding-top: 9.6rem;
+}
+.happened-block {
+    display: flex;
+    align-items: center;
+}
+.happened-block__content {
+    width: 77rem;
+    padding: 12rem 0 10rem 10rem;
+    background: #FFF;
+    box-shadow: 0px 50px 80px 0px #F5F5FA;
+}
+.happened-block__content-title {
+    margin-bottom: 3.5rem;
+}
+.happened-block__content-text{
+    max-width: 38rem;
+}
+.happened-block__content-text p{
+    margin-bottom: 2rem;
+    color: #181D2B;
+    line-height: 2.8rem;
+}
+.happened-block__content-text p:last-child{
+    margin-bottom: 0;
+}
+.happened-block__img img{
+    width: 73rem;
+    height: 76.4rem;
+    object-fit: cover;
+   
+}
+
+
+
+//events
+.events {
+    padding-top: 11rem;
+}
+.events__title {
+    margin-bottom: 4rem;
+}
+.events-block {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+.events-block__item {
+    padding: 4rem;
+    width: 24.5%;
+    border-radius: 4px;
+    border: 1px solid #CCCDDB;
+    background: #FFF;
+    cursor: pointer;
+    transition: all .4s ease-in;
+}
+.events-block__item:hover{
+    border: 1px solid #FFC078;
+    transition: all .4s ease-in;
+}
+.events-block__item-title {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.events-block__item-date {
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    color: #FFC078;
+}
+.events-block__item-btn {
+    padding: 2rem;
+    display: block;
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 4px;
+    background: #FFC078;
+    color: #FFF;
+    transition: all .4s ease-in;
+}
+.events-block__item-btn:hover{
+     background: #FFA844;
+     transition: all .4s ease-in;
+}
+.events-block__btn {
+    padding: 2rem 6rem;
+    width: 28rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    border: 2px solid #FFC078;
+    background-color: transparent;
+    text-align: center;
+    background: #FFF;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #FFC078;
+    transition: all .4s ease-in;
+}
+.events-block__btn:hover{
+    background: #FFA844;
+    transition: all .4s ease-in;
+    color: #fff;
+}
+
+
+
+//intensive
+.intensive {
+    padding-top: 8rem;
+    padding-bottom: 15rem;
+}
+.intensive__title {
+    margin-bottom: 6.5rem;
+}
+.intensive-block {
+    display: flex;
+}
+.intensive-block__video {
+    position: relative;
+}
+.playBtn-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.intensive__video {
+    width: 75rem;
+    height: 100%;
+}
+.intensive-block__content {
+    max-width: 58rem;
+    margin-left: 14rem;
+}
+.intensive-block__content-text {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 2.7rem;
+}
+.intensive-block__content-text span{
+    font-weight: 700;
+}
+
+
+
+
+//tournament
+.tournament-box {
+    max-width: 110rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5rem 9rem;
+    transform: translateY(-10rem);
+    background: #FFF;
+    box-shadow: 0px 50px 80px 0px #F5F5FA;
+}
+.tournament-box__text {
+    font-size: 2rem;
+    text-align: center;
+}
+.tournament__img img{
+    width: 100%;
+}
+
+
+//format
+.format {
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+}
+.format__title {
+    margin-bottom: 8.5rem;
+}
+
+.format-block {
+    display: flex;
+}
+.format-block__content {
+    max-width: 62rem;
+}
+.format-block__content-text {
+    margin-bottom: 8.5rem;
+    font-size: 2rem;
+    line-height: 2.7rem;
+}
+.format-block__content-btn {
+    display: block;
+    padding: 2.2rem;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    background: #FFC078;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    transition: all .4s ease-in;
+}
+.format-block__content-btn:hover{
+    background: #FFA844;
+    transition: all .4s ease-in;
+}
+.format-block__video {
+    margin-left: 12rem;
+    position: relative;
+}
+.playBtn-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.format__video {
+    width: 75rem;
+    height: 100%;
+}
+
+
+
+
+//prize-slider
+.prize-slider__title{
+    margin-bottom: 4rem;
+}
+.prize-slider__img img{
+    width: 100%;
+    height: 70rem;
+}
+.slick-dots{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    // background: #FFC078;
+}
+.slick-dots li button{
+    font-size: 0;
+    padding: 0;
+    border: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(216, 222, 230, 1);
+}
+
+.slick-dots li.slick-active button{
+    background: #FFA844;
+}
+
+
+//gallery
+.gallery {
+    padding-top: 11rem;
+}
+.gallery__title {
+    margin-bottom: 4rem;
+}
+.gallery-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.gallery-block__img {
+    width: calc(100% / 3 - 2rem);
+}
+.gallery-block__img img{
+    width: 49rem;
+    height: 35rem;
+    object-fit: cover;
+}
+
+
+//reviews-slider
+.reviews-slider{
+    padding-top: 13rem;
+    padding-bottom: 20rem;
+}
+.reviews-slider__title {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.reviews-slider__img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.reviews-slider .slick-slide{
+    scale: 0.9;
+    padding: 4rem 0;
+    transition: all .5s ease-in;
+}
+.reviews-slider .slick-slide img{
+    transition: all .5s ease-in;
+}
+.reviews-slider .slick-center{
+    scale: 1.1;
+    transition: all .5s ease-in;
+   
+}
+.reviews-slider .slick-dots li.slick-active button{
+    background: #6243E0;
+}

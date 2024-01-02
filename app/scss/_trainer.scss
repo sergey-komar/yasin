@@ -1,0 +1,33 @@
+.trainer {
+    padding-bottom: 27rem;
+}
+.trainer__title {
+    margin-bottom: 8rem;
+}
+.trainer-block__item {
+    display: flex;
+    margin-bottom: 8rem;
+}
+.trainer-block__content {
+    margin-left: 7rem;
+    max-width: 83rem;
+}
+.trainer-block__content-title {
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.trainer-block__list-item {
+    position: relative;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+}
+.trainer-block__list-item::before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: -30px;
+    background: url('../images/home/trainer-arrows.svg') no-repeat;
+}

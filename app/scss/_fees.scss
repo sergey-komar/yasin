@@ -1,0 +1,53 @@
+.fees{
+    padding-bottom: 25rem;
+}
+.fees__title {
+    margin-bottom: 6rem;
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+.fees-block {
+    display: flex;
+}
+.fees-block__content {
+    max-width: 75rem;
+}
+.fees-block__content p{
+    margin-bottom: 2rem;
+    line-height: 2.4rem;
+}
+.fees-block__img {
+    margin-left: 14rem;
+}
+.events-page{
+    padding-bottom: 19rem;
+}
+.container {
+}
+.events-page__title {
+    margin-bottom: 4rem;
+}
+.title {
+}
+.events-page__block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.events-page__item {
+    padding: 4rem;
+    width: calc(100% / 4 - 2rem);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    border: 1px solid #CCCDDB;
+    background: #FFF;
+}
+.events-page__item-title {
+    margin-bottom: 3.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.events-page__item-link {
+    margin-top: auto;
+}

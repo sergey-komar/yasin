@@ -1,0 +1,221 @@
+.header.header-page{
+    background-color: #fff;
+}
+.breadcrumbs {
+    padding-top: 2.7rem;
+    margin-bottom: 4rem;
+   
+}
+.breadcrumbs__list {
+    display: flex;
+    gap: 2rem;
+}
+.breadcrumbs__list li a{
+    font-size: 1.4rem;
+    color: #9698B2;
+}
+.breadcrumbs__list li{
+    position: relative;
+}
+.breadcrumbs__list li::after{
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 2px;
+    top: 50%;
+    right: -15px;
+    background: #9698B2;
+}
+.breadcrumbs__list li:last-child::after{
+    display: none;
+}
+.catalog{
+    padding-bottom: 20rem;
+}
+.catalog__title {
+    margin-bottom: 5rem;
+}
+.catalog-box {
+    margin-bottom: 4.5rem;
+    padding-bottom: 4.5rem;
+    display: flex;
+    gap: 9rem;
+    border-bottom: 1px solid #E9E9F5;
+}
+.catalog-box__item {
+    display: block;
+    font-weight: 800;
+    transition: all .4s ease-in;
+}
+.catalog-box__item:hover{
+    color: #FFC078;
+}
+.catalog-box__item--active {
+    color: #FFC078;
+}
+.catalog-search {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: 9rem;
+}
+.catalog-search__title {
+    font-size: 2.6rem;
+    font-weight: 800;
+}
+.search__sort {
+    width: 17rem;
+    padding: 1.5rem 2rem;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #CCCDDB;
+    background: #FFF;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+.search__sort-btn {
+    display: block;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    font-size: 1.4rem;
+}
+.search__sort::after{
+    position: absolute;
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    background: url('../images/home/search-arrows.svg') no-repeat;
+    right: 15px;
+    top: 21px;
+}
+.search__list {
+    padding: 0;
+    display: none;
+    width: 17rem;
+    top: 40px;
+    left: 0;
+    border: 1px solid #CCCDDB;
+    background: #FFF;
+    position: absolute;
+    transition: all .5s ease-in;
+    z-index: 9;
+}
+.search__sort:hover .search__list{
+    display: block;
+    transition: all .5s ease-in;
+}
+.search__sort:hover.search__sort::after{
+    transform: rotate(180deg);
+    top: 18px;
+    right: 15px;
+    transition: all .2s ease-in;
+}
+.search__list li{
+    margin-bottom: 1.8rem;
+    transition: all .2s ease-in;
+}
+.search__list li:last-child{
+    margin-bottom: 0;
+}
+.search__list li a{
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    font-size: 1.4rem;
+    color: #000;
+}
+.search__list-link--active {
+    position: relative;
+    background: rgba(57, 116, 121, 0.10);
+}
+.search__list li:hover{
+    background: rgba(57, 116, 121, 0.10);
+    transition: all .2s ease-in;
+}
+
+.catalog-block {
+    margin-bottom: 7.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8rem;
+    row-gap: 11rem;
+}
+
+.catalog-block__item {
+    width: 20.9%;
+}
+.catalog-block__item-img{
+    margin-bottom: 8rem;
+}
+.catalog-block__item-img img{
+    width: 25rem;
+    height: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .5s ease-in;
+    cursor: pointer;
+}
+.catalog-block__item-img img:hover{
+    scale: 1.4;
+    transition: all .5s ease-in;
+}
+.catalog-block__item-title {
+    margin-bottom: 2.6rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.catalog-block__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.catalog-block__bottom-price {
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.catalog-block__bottom-price span{
+    font-size: 1.6rem;
+    color: #9698B2;
+}
+
+.catalog-block__bottom-btn {
+    padding: 1.5rem;
+    font-weight: 600;
+    color: #FFC078;
+    border-radius: 4px;
+    border: 2px solid  #7456F1;
+}
+.catalog-block__bottom-btn:hover{
+    color: #FFF;
+    border-radius: 4px;
+    background: #FFC078;
+    border: 2px solid  #FFC078;
+}
+.pagination__list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.pagination__list li{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination__list li a{
+    width: 45px;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+}
+.pagination__active {
+    padding: 1rem;
+    border-radius: 4px;
+    background: #FFC078;
+    color: #FFF;
+}
