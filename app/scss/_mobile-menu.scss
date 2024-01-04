@@ -11,6 +11,7 @@
     width: 30px;
     height: 3px;
     background-color: #F7F7FF;
+    transition: all .2s ease-in;
 }
 .nav-icon__middle::before,
 .nav-icon__middle::after{
@@ -19,6 +20,7 @@
     width: 30px;
     height: 3px;
     background-color: #F7F7FF;
+    transition: all .2s ease-in;
 }
 .nav-icon__middle::before{
     top: 8px;
@@ -48,26 +50,32 @@
 .header.header-bg .nav-icon__middle::before,
 .header.header-bg .nav-icon__middle::after{
     background-color: #000;
+    transition: all .2s ease-in;
 }
 .header.header-bg .nav-icon__middle {
     background-color: #000;
+    transition: all .2s ease-in;
 }
 .header.header-bg .nav-icon.nav-icon--active .nav-icon__middle::before,
 .header.header-bg .nav-icon.nav-icon--active .nav-icon__middle::after{
     background-color: #fff;
+    transition: all .2s ease-in;
 }
 .header.header-bg .nav-icon.nav-icon--active .nav-icon__middle,
 .header.header-page .nav-icon.nav-icon--active .nav-icon__middle{
     background-color: transparent;
+    transition: all .2s ease-in;
 }
 .header.header-page .nav-icon__middle::before,
 .header.header-page .nav-icon__middle::after,
 .header.header-page .nav-icon__middle{
     background-color: #000;
+    transition: all .2s ease-in;
 }
 .header.header-page .nav-icon.nav-icon--active .nav-icon__middle::before,
 .header.header-page .nav-icon.nav-icon--active .nav-icon__middle::after{
     background-color: #fff;
+    transition: all .2s ease-in;
 }
 
 
@@ -104,7 +112,7 @@
     }
     .header__box-btn--mobile{
         display: block;
-        margin-bottom: 7rem;
+        margin-bottom: 3rem;
     }
     .menu__list{
         flex-direction: column;
@@ -112,7 +120,7 @@
         gap: 0;
     }
     .menu__list li{
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
     
     .menu__list li a{
@@ -130,9 +138,16 @@
        align-items: center;
     }
     .header__box--mobile .footer-block__info{
-        width: 14rem;
+        width: 16rem;
+        margin-bottom: 2.6rem;
+        text-align: center;
     }
-    
+    .header__box--mobile .footer-block__info.phone.footer-block__info::before{
+        left: -23px;
+    }
+    .header__box--mobile .footer-block__info.email.footer-block__info::before{
+        left: -21px;
+    }
 }
 
 
@@ -142,5 +157,8 @@
     }
     .menu__list li a{
         font-size: 16px;
+    }
+    .header__box--mobile .footer-block__info::before{
+        left: -28px;
     }
 }

@@ -120,7 +120,7 @@ window.addEventListener('DOMContentLoaded', () => {
         
                 videoEl.addEventListener('pause', function () {
         
-                playBtn.innerText = "Play";
+                playBtn.innerText = "";
                 }, false);
         }
        
@@ -168,7 +168,7 @@ window.addEventListener('DOMContentLoaded', () => {
     
             videoEl1.addEventListener('pause', function () {
     
-            playBtn1.innerText = "Play";
+            playBtn1.innerText = "";
             }, false);
     }
       
@@ -184,7 +184,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
          // получаем все элементы video 3
     var videoEl2 =  document.getElementsByTagName('video')[2],
-    playBtn = document.getElementById('playBtn-2'),
+    playBtn2 = document.getElementById('playBtn-2'),
     vidControls = document.getElementById('controls');
    
         if(videoEl2 &&  vidControls && playBtn){
@@ -193,7 +193,7 @@ window.addEventListener('DOMContentLoaded', () => {
     vidControls.classList.remove('hidden');
     }, false);
     // запускам или останавливаем воспроизведение
-    playBtn.addEventListener('click', function () {
+    playBtn2.addEventListener('click', function () {
         if (videoEl2.paused) {
             videoEl2.play();
         } else {
@@ -208,15 +208,15 @@ window.addEventListener('DOMContentLoaded', () => {
        
 
 
-        if(videoEl2 && playBtn){
+        if(videoEl2 && playBtn2){
             videoEl2.addEventListener('play', function () {
 
-                playBtn.innerText = "";
+                playBtn2.innerText = "";
                 }, false);
         
                 videoEl2.addEventListener('pause', function () {
         
-                playBtn.innerText = "Play";
+                playBtn2.innerText = "";
                 }, false);
         }
        
