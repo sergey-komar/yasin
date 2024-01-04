@@ -5,9 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -16,24 +14,47 @@
   <header class="header">
     <div class="container">
       <div class="header__inner">
+        <div class="nav-icon">
+          <div class="nav-icon__middle"></div>
+        </div>
         <a href="/" class="logo">
           <img class="header__logo-home" src="./images/home/logo.svg" alt="img">
           <img class="header__logo-page" src="./images/home/logo-page.svg" alt="img">
         </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li><a href="#">О школе</a></li>
-            <li><a class="menu__list--active" href="#">мероприятия</a></li>
-            <li><a href="#">YashinCup</a></li>
-            <li><a href="#">Интенсивы</a></li>
-            <li><a href="#">Тренерский состав</a></li>
-            <li><a href="#">МАГАЗИН</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
-        </nav>
+        <div class="menu">
+          <nav class="nav">
+            <ul class="menu__list">
+              <li><a href="#">О школе</a></li>
+              <li><a class="menu__list--active" href="./events.html">мероприятия</a></li>
+              <li><a href="#">YashinCup</a></li>
+              <li><a href="./news.html">Интенсивы</a></li>
+              <li><a href="./trainer.html">Тренерский состав</a></li>
+              <li><a href="#">МАГАЗИН</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="header__box--mobile">
+            <a href="tel:89215465456" class="header__box-btn header__box-btn--mobile">Связаться с нами</a>
+            <div class="footer-block__info address">
+              <div class="footer-block__info-text">Адрес</div>
+              <div class="footer-block__info-address">Москва, Сеченовский переулок, д. 7</div>
+            </div>
+  
+            <div class="footer-block__info phone">
+              <div class="footer-block__info-text">Телефон</div>
+              <a href="tel:+74959876543" class="footer-block__info-link">+7 (495) 987 65 43</a>
+            </div>
+  
+            <div class="footer-block__info email">
+              <div class="footer-block__info-text">Почта</div>
+              <a href="mailto:info@yashinstyle.ru" class="footer-block__info-link">info@yashinstyle.ru</a>
+            </div>
+          </div>
+         
+        </div>
 
         <div class="header__box">
-          <button class="header__box-btn">Связаться с нами</button>
+          <a href="tel:89215465456" class="header__box-btn">Связаться с нами</a>
           <a href="#" class="header__box-user">
             <svg width="19" height="22" viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="9.50365" cy="4.43333" r="3.43333" stroke="#F5F5F5" stroke-width="2"/>
@@ -56,11 +77,14 @@
     </div>
   </header>
   
-    <main class="main">
-      <section class="heading">
+     <main class="main">
+     <section class="heading">
+      <div class="test">
         <video class="heading__video" poster="./images/home/play-bg.jpg">
-          <source src="./images/home/video-tm.mp4" type="video/mp4">
+          <source class="heading__video--video" src="./images/home/video-tm.mp4" type="video/mp4">
         </video>
+      </div>
+       
         <div class="container">
           <div class="heading-block">
             <div class="heading-block__wrapper">
@@ -71,16 +95,14 @@
               </div>
             </div>
             <div id="controls" class="hidden">
-              <a id="playBtn">
+              <a class="heading-block--btn" id="playBtn">
                 <img src="./images/home/play-btn.png" alt="">
               </a>
             </div>
           </div>
         </div>
-        
-       
-      </section>
-
+      </section> 
+     
       <section class="happened">
         <div class="container">
           <div class="happened-block">
@@ -97,7 +119,7 @@
             </div>
             
             <div class="happened-block__img">
-              <img src="./images/home/happened-img.jpg" alt="img">
+              <img src="./images/happend-img.png" alt="img">
             </div>
             
            
@@ -141,7 +163,7 @@
           <h3 class="intensive__title title">Вратарский интенсив</h3>
           <div class="intensive-block">
             <div class="intensive-block__video">
-              <video class="intensive__video" poster="./images/home/intensiv-img.jpg">
+              <video class="intensive__video" poster="./images/home/format-img.png">
                 <source src="./images/home/video-tm.mp4" type="video/mp4">
               </video>
               <div id="controls" class="hidden">
@@ -165,23 +187,22 @@
       </div>
 
       <div class="tournament">
-        <div class="tournament__img">
-          <img src="./images/home/tournament-img.jpg" alt="img">
-        </div>
+      
         <div class="container">
-          <div class="tournament-box">
-            <div class="tournament-box__text">
-              Почти 80 лет назад в обычном советском дворе с игр с мячом родилась любовь Льва Ивановича к футболу.И именно эти игры в совокупности с волей к победе привели его на вершину футбольной карьеры.Поэтому сейчас нашей миссией является возрождение этих традиций, чтобы наши Вратари смогли показать свои личные навыки, проявить волю к победе и стать достойнейшим представителем своей команды!
+            <div class="tournament__title">Турнир YashinCup</div>
+            <div class="tournament-box">
+              <div class="tournament-box__text">
+                Почти 80 лет назад в обычном советском дворе с игр с мячом родилась любовь Льва Ивановича к футболу.И именно эти игры в совокупности с волей к победе привели его на вершину футбольной карьеры.Поэтому сейчас нашей миссией является возрождение этих традиций, чтобы наши Вратари смогли показать свои личные навыки, проявить волю к победе и стать достойнейшим представителем своей команды!
+              </div>
             </div>
-          </div>
         </div>
       </div>
 
       <div class="format">
         <div class="container">
-          <h3 class="format__title title">Формат проведения</h3>
           <div class="format-block">
             <div class="format-block__content">
+              <h3 class="format__title title">Формат проведения</h3>
               <div class="format-block__content-text">
                 Любимая игра с мячом нашего детства — «1 на 1 в 2 касания». ‌Турнир YashinCup проходит 1 день. В Москве 1 раз в квартал, в регионах по графику.‌Суть игры: вратари играют только на своей половине поля, и у них есть только 2 касания на ловлю и удар. Побеждает тот, кто забил больше голов.Вратари участвуют в своей возрастной группе или старшей на 1 год‌. У каждого игрока не менее 5 игр в турнире. Длительность турнира в каждом возрасте не менее 1 часа.
               </div>
@@ -189,7 +210,7 @@
             </div>
 
             <div class="format-block__video">
-              <video class="format__video" poster="./images/home/intensiv-img.jpg">
+              <video class="format__video" poster="./images/home/format-img.png">
                 <source src="./images/home/video-tm.mp4" type="video/mp4">
               </video>
               <div id="controls" class="hidden">
@@ -209,12 +230,12 @@
           <div class="prize-slider__inner">
             <div class="prize-slider__wrapper">
               <div class="prize-slider__img">
-                <img src="./images/home/prize-slider.jpg" alt="img">
+                <img src="./images/home/prize-slider.png" alt="img">
               </div>
             </div>
             <div class="prize-slider__wrapper">
               <div class="prize-slider__img">
-                <img src="./images/home/prize-slider.jpg" alt="img">
+                <img src="./images/home/prize-slider.png" alt="img">
               </div>
             </div>
           </div>
@@ -253,22 +274,22 @@
           <div class="reviews-slider__inner">
             <div class="reviews-slider__wrapper">
               <div class="reviews-slider__img">
-                <img src="./images/home/reviews-img.jpg" alt="img">
+                <img src="./images/home/reviews-img.png" alt="img">
               </div>
             </div>
             <div class="reviews-slider__wrapper">
               <div class="reviews-slider__img">
-                <img src="./images/home/reviews-img.jpg" alt="img">
+                <img src="./images/home/reviews-img.png" alt="img">
               </div>
             </div>
             <div class="reviews-slider__wrapper">
               <div class="reviews-slider__img">
-                <img src="./images/home/reviews-img.jpg" alt="img">
+                <img src="./images/home/reviews-img.png" alt="img">
               </div>
             </div>
             <div class="reviews-slider__wrapper">
               <div class="reviews-slider__img">
-                <img src="./images/home/reviews-img.jpg" alt="img">
+                <img src="./images/home/reviews-img.png" alt="img">
               </div>
             </div>
           </div>
@@ -276,6 +297,7 @@
       </div>
 
     </main>
+   
     <footer class="footer">
       <div class="container">
         <div class="footer-block">
@@ -315,9 +337,7 @@
         </div>
       </div>
     </footer>
-  
-
-
+   
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
   
   <script src="js/main.min.js"></script>

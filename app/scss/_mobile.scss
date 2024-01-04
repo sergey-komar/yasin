@@ -1,0 +1,326 @@
+@media(max-width: 1460px){
+    html{
+        font-size: 9px;
+    }
+    .menu__list{
+        gap: 1.5rem;
+        margin-left: 0;
+    }
+    .header__box{
+        margin-left: 0;
+    }  
+}
+
+@media(max-width: 1300px){
+    .events-block{
+        min-width: 100%;
+        overflow-x: auto;
+        padding-bottom: 2rem;
+    }
+    .events-block__item{
+        min-width: 30rem;
+        padding: 2rem;
+    }
+    .intensive-block,
+    .format-block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .intensive__video,
+    .format__video{
+        width: 100%;
+        height: 70rem;
+        margin-bottom: 0rem;
+    }
+    .intensive-block__content,
+    .format__title{
+        margin-top: 4rem;
+    }
+    .format-block__video{
+        order: -1;
+        margin-left: 0;
+    }
+    .intensive-block__content{
+        max-width: 80%;
+        margin-left: 0;
+    }
+    .format-block__content{
+        max-width: 80%;
+    }
+    .fees-block__content {
+        max-width: 63rem;
+    }
+}
+
+@media(max-width: 1050px){
+    html{
+        font-size: 8px;
+    }
+    .happened-block{
+        flex-direction: column;
+    }
+    .happened-block__img{
+        order: -1;
+    }
+    .happened-block__content{
+        width: 100%;
+        padding: 2rem;
+    }
+    .happened-block__content-text{
+        max-width: 100%;
+    }
+    
+    .events-block__item{
+        min-width: 30rem;
+        padding: 1.5rem;
+    }
+    .heading-block {
+        max-width: 65rem;
+        margin-top: 10rem;
+        position: relative;
+        top: 50%;
+        transform: 0;
+        color: #fff;
+    }
+    .heading{
+        background: url('../images/home/play-bg.jpg') no-repeat;
+    }
+    .heading__video{
+        position: relative;
+        z-index: -1;
+    }
+    .hidden-video{
+        z-index: 1;
+    }
+    .fees-block__content{
+        max-width: 50rem;
+    }
+    .fees-block__img {
+        margin-left: 3rem;
+    }
+}
+
+@media(max-width: 700px){
+    .trainer{
+        padding-bottom: 10rem;
+    }
+    .trainer-block__item{
+        flex-direction: column;
+    }
+    .trainer-block__item-img{
+        margin-bottom: 2rem;
+    }
+    .trainer-block__content{
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .events-page__item,
+    .news-block__item{
+        width: calc(100% / 3 - 2rem);
+    }
+    .fees-block{
+        flex-direction: column;
+    }
+    .fees-block__img{
+        margin-bottom: 3rem;
+        margin-left: 0;
+        order: -1;
+    }
+    .fees-block__content{
+        max-width: 100%;
+    }
+}
+
+
+
+
+@media(max-width: 550px){
+    .title,
+    .fees__title{
+        font-size: 26px;
+    }
+    .heading{
+        background-size: cover;
+        background-position: center left;
+    }
+    .heading-block__subtitle{
+        font-size: 18px;
+    }
+    .heading-block__title{
+        font-size: 50px;
+    }
+    #playBtn{
+        width: 60px;
+    }
+    .happened-block__img img{
+        width: 100%;
+        height: 100%;
+    }
+    .happened-block__content-title {
+        margin-bottom: 1.5rem;
+    }
+    .events {
+        padding-top: 5rem;
+    }
+    .events-block__btn{
+        width: 100%;
+    }
+    .events-block{
+        margin-bottom: 1rem;
+    }
+    .intensive__video,
+    .format__video{
+        height: 100%;
+    }
+    .intensive-block__content,
+    .format-block__content{
+        max-width: 100%;
+    }
+    .format__title {
+        margin-bottom: 1.5rem;
+    }
+    .format-block__content-text{
+        margin-bottom: 1.5rem;
+    }
+    .playBtn-1,
+    .playBtn-2{
+        width: 70px;
+    }
+    .intensive{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .tournament{
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+    }
+    .tournament__title{
+        margin-bottom: 0;
+        max-width: 100%;
+        font-size: 5rem;
+        text-align: center;
+    }
+    .tournament-box{
+        padding: 2.5rem;
+    }
+    .format{
+        padding-top: 20rem;
+        padding-bottom: 5rem;
+    }
+    .prize-slider__img img{
+        height: 250px;
+    }
+    .slick-dots{
+        margin-top: 1rem;
+    }
+    .slick-dots li button{
+        width: 10px;
+        height: 10px;
+    }
+    .gallery-block__img img{
+        width: 100%;
+        height: 150px;
+    }
+    .gallery-block__img{
+        width: 47%;
+    }
+    .gallery{
+        padding-top: 5rem;
+    }
+    .reviews-slider .slick-slide{
+        padding:  0;
+        transition: all .5s ease-in;
+    }
+    .reviews-slider .slick-center{
+        scale: 1;
+        transition: all .5s ease-in;
+    }
+    .reviews-slider__title{
+        margin-bottom: 2rem;
+    }
+    .reviews-slider{
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+    .footer-block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+    .footer-block__info::before{
+        left: -33px;
+    }
+    .footer-block__item{
+        width: 13rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .trainer__title,
+    .trainer-block__content-title,
+    .news__title{
+        margin-bottom: 2rem;
+    }
+    .breadcrumbs {
+        padding-top: 2.7rem;
+        margin-bottom: 2rem;
+    }
+    .trainer-block__list-item::before{
+        left: -22px;
+        top: 3px;
+    }
+    .trainer-block__item{
+        margin-bottom: 5rem;
+    }
+    .trainer{
+        padding-bottom: 2rem;
+    }
+    .events-page__item,
+    .news-block__item{
+        padding: 2rem;
+        width: calc(100% / 2 - 1rem);
+    }
+    .events-page__item-title{
+        margin-bottom: 1.5rem;
+    }
+    .events-page__title{
+        margin-bottom: 3rem;
+    }
+    .events-page{
+        padding-bottom: 8rem;
+    }
+    .news-block__item{
+        padding: 1.5rem;
+    }
+    .news-block__item-img{
+        margin-bottom: 1rem;
+    }
+    .news-block__item-img img{
+        height: 16rem;
+    }
+    .news-block__item-title{
+        margin-bottom: 1rem;
+        padding: 0;
+    }
+    .news-block__item-link{
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    .news{
+        padding-bottom: 5rem;
+    }
+    .news-block{
+        margin-bottom: 4rem;
+    }
+    .fees__title{
+        margin-bottom: 2rem;
+    }
+    .fees{
+        padding-bottom: 5rem;
+    }
+}
