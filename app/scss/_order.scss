@@ -1,0 +1,189 @@
+.order {
+    padding-top: 2rem;
+    padding-bottom: 15rem;
+}
+.order__title {
+    margin-bottom: 6.5rem;
+    text-align: center;
+}
+.order-block {
+    display: flex;
+    justify-content: space-between;
+}
+.order-block__left {
+    width: 40%;
+}
+.order-block__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid  #E9E9F2;
+}
+.order-block__info-name {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.order-block__info-name--active {
+    color: #FFC078;
+}
+.order-block__registration {
+    margin-bottom: 5rem;
+    display: flex;
+}
+.order-block__label {
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+}
+.order-block__label p{
+    margin-left: 4rem;
+}
+.order-block__form-checkbox {
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+}
+.order-block__custom-checkbox {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #A7ADCC;
+}
+.order-block__form-checkbox:checked+.order-block__custom-checkbox{
+   background: url('../images/order-elps.svg') no-repeat;
+   background-position: center;
+   border: 1px solid #FFC078;
+}
+.order-block__form {
+    margin-bottom: 5rem;
+}
+.order-block__form-label{
+    display: block;
+    margin-bottom: 2.4rem;
+}
+.order-block__form-label p{
+    margin-bottom: 1rem;
+}
+.order-block__form-input {
+    width: 100%;
+    height: 5rem;
+    border-radius: 4px;
+    border: 1px solid #DCDDE5;
+    background: #FFF;
+}
+.order-block__form-label select{
+    width: 100%;
+    height: 5rem;
+    border-radius: 4px;
+    border: 1px solid #DCDDE5;
+    background: #FFF;
+}
+.order-block__way-title {
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.order-block__way .order-block__label{
+    margin-left: 0;
+    margin-bottom: 4rem;
+}
+.order-block__way-name {
+    margin-bottom: 1.5rem;
+}
+.order-block__way-textarea {
+    margin-bottom: 3.4rem;
+    width: 100%;
+    height: 12rem;
+    border-radius: 4px;
+    border: 1px solid #E8E9F2;
+    background: #FFF;
+    box-shadow: 0px 9px 80px 0px rgba(237, 240, 250, 0.60);
+    resize: none;
+}
+.order-block__way-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+.order-block__way-label p{
+    margin-left: 2rem;
+}
+.order-block__way-label p span{
+    font-weight: 700;
+}
+.order-block__way-form-checkbox {
+    width: 1px;
+    height: 1px;
+}
+.order-block__way-custom-checkbox {
+    min-width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    border: 2px solid #A7ADCC;
+    background: #FFF;
+    box-shadow: 0px 9px 80px 0px rgba(237, 240, 250, 0.60)
+}
+.order-block__way-form-checkbox:checked+.order-block__way-custom-checkbox{
+    background: url('../images/order-arrows.svg') no-repeat;
+    background-position: center;
+    background-color: #FFC078;
+    border: none;
+}
+.order-block__way-btn {
+    width: 100%;
+    padding: 2.5rem;
+    border-radius: 4px;
+    background: #0B7DE5;
+    font-size: 1.8rem;
+    font-weight: 800;
+    border: none;
+    text-align: center;
+    color: #FFF;
+    transition: all .4s ease-in;
+}
+.order-block__way-btn:hover{
+    background: #FFC078;
+    transition: all .4s ease-in;
+}
+.order-block__right {
+    width: 40%;
+}
+.order-block__inner{
+    padding: 3rem;
+    border-radius: 4px;
+    border: 1px solid #E8E9F2;
+    background: #FFF;
+    box-shadow: 0px 9px 80px 0px rgba(237, 240, 250, 0.60);
+}
+.order-block__right-title {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.order-block__desc {
+    margin-bottom: 1.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 5rem;
+    row-gap: 2rem;
+}
+.order-block__desc-name {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.order-block__desc-name span{
+    margin-bottom: 1rem;
+    display: block;
+    font-size: 1.4rem;
+    color: #9698B2;
+}
+.order-block__right-line{
+    margin-bottom: 1.8rem;
+    width: 100%;
+    height: 1px;
+    background: #E9E9F2;
+}

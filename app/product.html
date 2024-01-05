@@ -13,20 +13,43 @@
   <header class="header header-page">
     <div class="container">
       <div class="header__inner header__inner--page">
+        <div class="nav-icon">
+          <div class="nav-icon__middle"></div>
+        </div>
         <a href="/" class="logo">
           <img src="./images/home/logo-page.svg" alt="img">
         </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li><a href="#">О школе</a></li>
-            <li><a class="menu__list--active" href="#">мероприятия</a></li>
-            <li><a href="#">YashinCup</a></li>
-            <li><a href="#">Интенсивы</a></li>
-            <li><a href="#">Тренерский состав</a></li>
-            <li><a href="#">МАГАЗИН</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
-        </nav>
+        <div class="menu">
+          <nav class="nav">
+            <ul class="menu__list">
+              <li><a href="#">О школе</a></li>
+              <li><a class="menu__list--active" href="#">мероприятия</a></li>
+              <li><a href="#">YashinCup</a></li>
+              <li><a href="#">Интенсивы</a></li>
+              <li><a href="#">Тренерский состав</a></li>
+              <li><a href="#">МАГАЗИН</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="header__box--mobile">
+            <a href="tel:89215465456" class="header__box-btn header__box-btn--mobile">Связаться с нами</a>
+            <div class="footer-block__info address">
+              <div class="footer-block__info-text">Адрес</div>
+              <div class="footer-block__info-address">Москва, Сеченовский переулок, д. 7</div>
+            </div>
+  
+            <div class="footer-block__info phone">
+              <div class="footer-block__info-text">Телефон</div>
+              <a href="tel:+74959876543" class="footer-block__info-link">+7 (495) 987 65 43</a>
+            </div>
+  
+            <div class="footer-block__info email">
+              <div class="footer-block__info-text">Почта</div>
+              <a href="mailto:info@yashinstyle.ru" class="footer-block__info-link">info@yashinstyle.ru</a>
+            </div>
+          </div>
+         
+        </div>
 
         <div class="header__box">
           <button class="header__box-btn">Связаться с нами</button>
@@ -66,6 +89,9 @@
             <div class="container">
                 <div class="product-block">
                    <div class="product-block__img">
+                    <div class="product-block__content-title product-block__content-title--mobile">
+                      Футболка  с чемпионата мира 1965 года
+                    </div>
                     <img src="./images/page-product.png" alt="img">
                    </div> 
 
@@ -118,49 +144,52 @@
                    
                 </div>
 
-                <h4 class="product__upsell-title title">Похожие товары</h4>
-                <div class="catalog-block">
-                    <div class="catalog-block__item">
-                        <div class="catalog-block__item-img">
-                            <img src="./images/home/product.png" alt="img">
-                        </div>
-                        <div class="catalog-block__item-title">Майка с чемпионата мира 1965 года</div>
-                        <div class="catalog-block__bottom">
-                            <div class="catalog-block__bottom-price">876<span>р</span></div>
-                            <a href="#" class="catalog-block__bottom-btn">Подробнее</a>
-                        </div>
-                    </div>
-                    <div class="catalog-block__item">
-                        <div class="catalog-block__item-img">
-                            <img src="./images/home/product.png" alt="img">
-                        </div>
-                        <div class="catalog-block__item-title">Майка с чемпионата мира 1965 года</div>
-                        <div class="catalog-block__bottom">
-                            <div class="catalog-block__bottom-price">876<span>р</span></div>
-                            <a href="#" class="catalog-block__bottom-btn">Подробнее</a>
-                        </div>
-                    </div>
-                    <div class="catalog-block__item">
-                        <div class="catalog-block__item-img">
-                            <img src="./images/home/product.png" alt="img">
-                        </div>
-                        <div class="catalog-block__item-title">Майка с чемпионата мира 1965 года</div>
-                        <div class="catalog-block__bottom">
-                            <div class="catalog-block__bottom-price">876<span>р</span></div>
-                            <a href="#" class="catalog-block__bottom-btn">Подробнее</a>
-                        </div>
-                    </div>
-                    <div class="catalog-block__item">
-                        <div class="catalog-block__item-img">
-                            <img src="./images/home/product.png" alt="img">
-                        </div>
-                        <div class="catalog-block__item-title">Майка с чемпионата мира 1965 года</div>
-                        <div class="catalog-block__bottom">
-                            <div class="catalog-block__bottom-price">876<span>р</span></div>
-                            <a href="#" class="catalog-block__bottom-btn">Подробнее</a>
-                        </div>
-                    </div>
+                <div class="product-upsell">
+                  <h4 class="product__upsell-title title">Похожие товары</h4>
+                  <div class="catalog-block">
+                      <div class="catalog-block__item">
+                          <div class="catalog-block__item-img">
+                              <img src="./images/home/product.png" alt="img">
+                          </div>
+                          <div class="catalog-block__item-title">Майка с чемпионата мира 1965 года</div>
+                          <div class="catalog-block__bottom">
+                              <div class="catalog-block__bottom-price">876<span>р</span></div>
+                              <a href="#" class="catalog-block__bottom-btn">Подробнее</a>
+                          </div>
+                      </div>
+                      <div class="catalog-block__item">
+                          <div class="catalog-block__item-img">
+                              <img src="./images/home/product.png" alt="img">
+                          </div>
+                          <div class="catalog-block__item-title">Майка с чемпионата мира 1965 года</div>
+                          <div class="catalog-block__bottom">
+                              <div class="catalog-block__bottom-price">876<span>р</span></div>
+                              <a href="#" class="catalog-block__bottom-btn">Подробнее</a>
+                          </div>
+                      </div>
+                      <div class="catalog-block__item">
+                          <div class="catalog-block__item-img">
+                              <img src="./images/home/product.png" alt="img">
+                          </div>
+                          <div class="catalog-block__item-title">Майка с чемпионата мира 1965 года</div>
+                          <div class="catalog-block__bottom">
+                              <div class="catalog-block__bottom-price">876<span>р</span></div>
+                              <a href="#" class="catalog-block__bottom-btn">Подробнее</a>
+                          </div>
+                      </div>
+                      <div class="catalog-block__item">
+                          <div class="catalog-block__item-img">
+                              <img src="./images/home/product.png" alt="img">
+                          </div>
+                          <div class="catalog-block__item-title">Майка с чемпионата мира 1965 года</div>
+                          <div class="catalog-block__bottom">
+                              <div class="catalog-block__bottom-price">876<span>р</span></div>
+                              <a href="#" class="catalog-block__bottom-btn">Подробнее</a>
+                          </div>
+                      </div>
+                  </div>
                 </div>
+               
             </div>
         </section>
 

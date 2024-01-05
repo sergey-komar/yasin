@@ -56,9 +56,10 @@
     margin-bottom: 3.5rem;
 }
 .happened-block__content-text{
-    max-width: 38rem;
+    max-width: 45rem;
 }
 .happened-block__content-text p{
+    font-size: 2rem;
     margin-bottom: 2rem;
     color: #181D2B;
     line-height: 2.8rem;
@@ -199,7 +200,8 @@
     margin-bottom: 15rem;
     padding-top: 6rem;
     background: url('../images/home/turnir.png') no-repeat;
-    // background-size: cover;
+    // background-size: auto 100%;
+    background-position: center;
 }
 .tournament-box {
     max-width: 110rem;
@@ -218,7 +220,6 @@
     width: 100%;
 }
 .tournament__title{
-    margin-bottom: 5rem;
     max-width: 43rem;
     font-size: 8rem;
     font-weight: 800;

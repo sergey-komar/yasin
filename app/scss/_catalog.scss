@@ -8,7 +8,9 @@
 }
 .breadcrumbs__list {
     display: flex;
-    gap: 2rem;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: .5rem;
 }
 .breadcrumbs__list li a{
     font-size: 1.4rem;
@@ -86,8 +88,8 @@
 .search__sort::after{
     position: absolute;
     content: '';
-    width: 1rem;
-    height: 1rem;
+    width: 1.1rem;
+    height: 1.1rem;
     background: url('../images/home/search-arrows.svg') no-repeat;
     right: 15px;
     top: 21px;
@@ -146,7 +148,7 @@
 }
 
 .catalog-block__item {
-    width: 20.9%;
+    width: 20.7%;
 }
 .catalog-block__item-img{
     margin-bottom: 8rem;

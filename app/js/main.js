@@ -53,7 +53,9 @@ $(function () {
         // Your custom options
       });
   
- 
+    // $('[data-fancybox="gallery"]').fancybox({
+    //     // Options will go here
+    // });
 
 })
 
