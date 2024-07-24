@@ -201,6 +201,16 @@
     .order-block__left{
         width: 100%;
     }
+    .trainer-block__content-title{
+        font-size: 20px;
+    }
+    .trainer-block__list-item,
+    .trainer-block__content-text,
+    .events-page__item-title,
+    .news-block__item-title,
+    .fees-block__content p{
+        font-size: 16px;
+    }
 }
 
 
@@ -366,6 +376,7 @@
     }
     .trainer-block__item{
         margin-bottom: 5rem;
+        align-items: center;
     }
     .trainer{
         padding-bottom: 2rem;
